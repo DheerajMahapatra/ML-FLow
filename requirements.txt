@@ -1,1 +1,2 @@
 mlflow==3.16.1
+dagshub==0.7.2
