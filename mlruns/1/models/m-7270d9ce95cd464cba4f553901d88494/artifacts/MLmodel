@@ -1,0 +1,23 @@
+artifact_path: file:D:/45-MLFlow Dagshub and BentoML-Complete ML Project Lifecycle/mlruns/1/models/m-7270d9ce95cd464cba4f553901d88494/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-7270d9ce95cd464cba4f553901d88494
+model_size_bytes: 7738
+model_uuid: m-7270d9ce95cd464cba4f553901d88494
+prompts: null
+run_id: d97717817f4243f891cd872bdc913b28
+utc_time_created: '2026-09-29 18:46:44.885558'
